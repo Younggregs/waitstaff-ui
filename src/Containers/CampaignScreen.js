@@ -68,12 +68,12 @@ export default class CampaignScreen extends Component {
         .catch((e) => { console.log(e) })
 
         //mocking getting data, this populates the table data
-        /*setTimeout(() => {
+        /* setTimeout(() => {
             this.setState({
                 campaignTableData: [...TableData],
                 isTableDataLoading: true
             })
-        }, 2000);*/
+        }, 2000); */
 
     }
 
